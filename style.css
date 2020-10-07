@@ -1,7 +1,35 @@
-h1 {
-  size: 100px;
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Light.ttf);
+}
+
+body {
+  font-family: Roboto;
+  background-color: #d95dc4;
+}
+
+.title {
+  font-size: 100px;
+  color: #f582e6;
 }
 nav {
-  position: fixed;
-  margin: 100px;
+  position: relative;
+  margin-top: -50px;
+}
+a {
+  color: #f598e5;
+  text-decoration: none;
+  font-size: 40px;
+  margin-left: 20px;
+}
+a:hover {
+  color: #f5abe8;
+  text-decoration: none;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.madeby {
+  font-size: 20px;
+  color: #ffbdf3;
 }
