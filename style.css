@@ -124,33 +124,27 @@ table {
 body {
   font-family: Roboto;
   background-color: #b56bff;
-  outline: dotted 4px orange;
 }
 .title {
   font-size: 100px;
   color: #f9defa;
-  outline: dotted 4px lightblue;
 }
 nav {
-  outline: dotted 4px red;
   position: relative;
   margin-top: -50px;
 }
 
 a {
-  outline: dotted 4px yellow;
   color: #f9defa;
   text-decoration: none;
   font-size: 40px;
   margin-left: 20px;
 }
 p {
-  outline: dotted 4px green;
   font-size: 30px;
   color: #cbadde;
 }
 .colors {
-  outline: dotted 4px burlywood;
   width: 100%;
 }
 a:hover {
@@ -160,7 +154,6 @@ a:hover {
   margin-left: 20px;
 }
 .madeby {
-  outline: dotted 4px firebrick;
   font-size: 20px;
   color: #cbadde;
 }
